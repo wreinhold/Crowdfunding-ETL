@@ -10,7 +10,7 @@ CREATE TABLE "campaign" (
     "description" str   NOT NULL,
     "goal" float   NOT NULL,
     "pledged" float   NOT NULL,
-    "outcome" boolean   NOT NULL,
+    "outcome" str   NOT NULL,
     "backers_count" int   NOT NULL,
     "country" str   NOT NULL,
     "currency" str   NOT NULL,
